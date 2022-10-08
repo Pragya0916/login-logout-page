@@ -21,29 +21,32 @@ const Cart = () => {
                         </div> 
 
                 <div className='cart__innerWrapper'>
-                    {cartItems.length === 0 ? (<h5 className='p-4'>Cart is Empty</h5>) : (
+                    {cartItems.length === 0 ? (<h5> Cart is Empty </h5>) : (
                         <ul className='p-4'>  
                             {cartItems.map((product)=>{
                                 return(
                                     <>
                                     <CartItem key={product.id} product={product}
                                      />
+        
                                     </>
                                 )
                             })}
                         </ul>
                     )}
                 </div>
-
-                <div className='cart h-25 fw-bold text-success text-center mb-2'><hr/>
+        
+                    <div className='cart h-25 fw-bold text-success text-center mb-2'><hr/>
                      Total - $
                     {cartItems.reduce((amount, item)=>item.price + amount, 0)
                     }
-                
+              
                 </div>
+              
                 </div>
                 )
         }
+    
          </div>
     </>
   )
