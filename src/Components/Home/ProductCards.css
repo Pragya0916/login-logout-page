@@ -1,0 +1,27 @@
+.cards{
+    transition-duration: .2s;
+    position: relative;
+    transition-property: top, box-shadow;
+    top: 0;
+    cursor: pointer;
+}
+
+.cards:hover{
+    top: -4px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3)!important;
+}
+.cardsBtn{
+        border-radius: 5px;
+        text-align: center;
+        margin: 20px;
+        color: black;
+}
+
+.cardsBtn:hover{
+    border: 1px solid black; 
+    background-color: rgb(217, 240, 252);
+    color:black;
+    font-weight: bold;
+    
+   
+}

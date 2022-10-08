@@ -1,0 +1,16 @@
+
+ .list {
+    list-style-type: none;
+    height: 100px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .img {
+    height: 100%;
+    width: 100px;
+    object-fit: cover;
+  }
+
+ 

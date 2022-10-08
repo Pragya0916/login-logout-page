@@ -1,0 +1,20 @@
+.outer_box{
+    height: 100vh;
+    width: 100%;
+   
+    background-color: #d2eafb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(227, 234, 237);
+    height: 70%;
+    width: 38%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgb(216, 215, 215);
+  } 
+  
